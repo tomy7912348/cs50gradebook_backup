@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: In tackling with sorted50000.txt, sort1 took roghly 1/10 of what it took when tackling with reversed50000.txt, suggesting that sort1's big O and omega are exponentially different from each other. And Bubble sort's big O is the square of its omega.
+
+sort2 uses: Merge sort
+
+How do you know?: In tackling with random50000.txt, sort2 took roughly 1/14 of what sort1 took and roughly 1/6 of what sort3 took, suggesting that its big O is probably exponentially different from other two sorting algorithms. Which means sort2 is merge sort, whose big O is n*logn.
+
+sort3 uses: Selection sort
+
+How do you know?: In tackling with sorted50000.txt and reversed50000.txt, sort3 took roghly the same time, suggesting that sort3's big O and omega are the same. Which means sort3 is selection sort, whose big O and omega are the same.
